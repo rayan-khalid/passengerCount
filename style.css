@@ -1,0 +1,38 @@
+body{
+    background-image: url(pic.jpg);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+h1{
+    color:#aa4a8f;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600; 
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(30, 36, 35); /*color of the text inside*/
+    width: 150px; /*the width of the box*/
+    margin-bottom: 5px; /* the space between the two buttons*/
+    border-radius: 5px;
+    background: pink; /*color of the background*/
+    font-weight: bold;
+}
+
+#increment-btn{ /*if u want to target a specific button then u write it using a #*/
+    background: rgb(144, 157, 229);
+}
+#save-btn{ 
+    font-style: italic;
+}
